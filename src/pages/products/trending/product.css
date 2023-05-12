@@ -1,0 +1,57 @@
+.productcontainer{
+    background-color: #faefdf;
+    margin-top: 30px;
+    padding-top: 15px;
+}
+
+.nextcontainer{
+    border-top: solid rgb(34, 34, 32) 1px;
+}
+
+.productname{
+    letter-spacing: 2px;
+}
+
+.nextcontainer{
+    margin-top: 50px;
+}
+
+.heading{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+   
+}
+
+img{
+    height: 450px;
+    width: 400px;
+    border-radius: 5px;
+    margin-bottom: 3px;
+}
+
+.price{
+    font-weight: bold;
+    margin-top: 50px;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+
+.instock{
+ width: 200px;
+}
+
+input{
+    border: none;
+    border-radius: 5px;
+}
+
+.addcart{
+    background-color: rgb(187, 148, 187);
+    width: 300px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+
+    

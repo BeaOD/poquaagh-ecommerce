@@ -1,0 +1,68 @@
+.row1{
+    margin-top: 50px;
+}
+
+.video{
+    object-fit: cover;
+    
+}
+
+.righttext{
+    background-color: rgb(172, 143, 172);
+    color: black;
+    text-align: center;
+    padding-top: 30px;
+    font-size: large;
+}
+
+.middletext{
+    background-color: rgb(172, 143, 172);
+    text-align: center;
+    height: 290px;
+    padding-top: 60px;
+    margin-top: 60px;
+    font-size: large;
+}
+
+.rightt{
+    background-color: rgb(172, 143, 172);
+    text-align: center;
+    height: 290px;
+    padding-top: 60px;
+    /* padding-left: 20px; */
+    margin-top: 60px;
+    margin-left: 20px;
+    font-size: large;
+    width: 300px;
+}
+
+img.imgshop{
+    width: 350px;
+    height: 450px;
+    padding-top: 60px;
+}
+
+img.imgnewarrivals{
+    height: 450px;
+    padding-top: 60px;
+}
+img.imgshopL{
+    width: 550px;
+    height: 550px;
+    padding-top: 60px;
+}
+
+
+.parallax {
+    /* The image used */
+    /* background-image: url("otherimages/cape3.jpeg"); */
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

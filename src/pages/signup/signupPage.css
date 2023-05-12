@@ -1,0 +1,116 @@
+.container{
+    color: purple;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-width: 4px;
+    border: 1px solid rgb(66, 57, 57);
+}
+
+
+.roundeddiv{
+    /* text-align: left; */
+    font-size: 12px;
+    border-right-color: purple;
+    border-right: 1px solid rgb(59, 58, 58);
+    padding-left: 80px;
+}
+
+input{
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    color:  purple;;
+    width: 450px;
+    height:45px;
+    background-color: whitesmoke;
+}
+
+/* .img2{
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+} */
+
+/* .img3{ */
+    /* background-image: url(otherimages/Poquaa-kente.png); */
+    /* height: 300px;
+	
+} */
+
+/* .fade{
+	opacity: 0;
+	transition-duration: 1.25s;
+}
+
+.fade:hover{
+    opacity: 1;
+} */
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+}
+
+/* right column */
+.text-block {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: hidden;
+  color:  purple;
+  padding-right: 80px;
+}
+
+/* center text */
+/* .text-block2 {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  bottom: 20px;
+  background-color: hidden;
+  color:  purple;
+  padding-left: 20px;
+  padding-right: 20px;
+} */
+
+button.loginonsignup{
+	text-align: center;
+	border: none;
+	width: 200px;
+	color: white;
+	background-color:  purple;
+    border-radius: 10px;
+}
+
+
+button.signupsubmit{
+    text-align: center;
+	border: none;
+	width: 450px;
+    height:25px;
+	color: white;
+	background-color:  purple;
+    border-radius: 10px;
+}
+
+div.maindiv{
+    
+    margin-top: 40px;
+    display: block;
+    text-align: center;
+    position: relative;
+    background-repeat: no-repeat;
+	background-size: cover;
+    
+}
+
+h1.claasyk{
+    text-align: center;
+}
+p.claasyk{
+    text-align: center;
+}
+button.loginonsignup{
+    text-align: center;
+}
