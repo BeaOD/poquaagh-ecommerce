@@ -2,7 +2,7 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BsFillPersonFill } from 'react-icons/bs';
 import { BiCartAlt } from 'react-icons/bi';
-import { BsSearch } from 'react-icons/bs';
+//import { BsSearch } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 import './nav.css'
 
@@ -25,17 +25,17 @@ function nav() {
        <div className='col-md-2'></div>
 
         <div className='col-md-6 searchcol'>
-        <Link to='/searchitem'>
+        {/* <Link to='/searchitem'>
         <button type="search" name="search" placeholder='search' className='searchbuttons'>
-                     <BsSearch /> <span> Search </span>
+        <span>  <BsSearch /> Search </span>
           </button> 
-          </Link>     
+          </Link>    */}
         </div>
 
         <div className='col-md-1 relative1 '>
                <div className=' cart'>
                 <Link to='/addtoCart'>
-            <BiCartAlt style={{fontSize: "1.6em",  color:' rgb(77, 77, 77)'}}  /> 
+            <BiCartAlt style={{fontSize: "1.6em",  color:' purple'}}  /> 
             </Link>
         </div>
         </div>
@@ -43,7 +43,7 @@ function nav() {
         <div className='col-md-1  relative '>
                <div className=' person'> 
                <Link to='/loginPage'>   
-            <BsFillPersonFill style={{fontSize:"1.8em", color:' rgb(77, 77, 77)'}}/>   
+            <BsFillPersonFill style={{fontSize:"1.8em", color:' purple'}}/>   
             </Link>     
         </div>
         </div>
@@ -55,7 +55,7 @@ function nav() {
          
         {/* second navbar */}
         <nav >
-        <div  className='container' style={{marginTop:'10px' }}>
+        <div  className='container' >
         <div className='row secondnavrow'   >
             <div className='col-md-3'>
         <div className="dropdown ">
@@ -114,12 +114,6 @@ function nav() {
         </div>
         </div>
     </nav>
-
-{/* <div className='container'>
-  <div>WELCOME</div>
-
-</div> */}
-
     </>
   )
 }

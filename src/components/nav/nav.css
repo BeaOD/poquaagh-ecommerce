@@ -19,30 +19,31 @@ img{
   width: 240px;
   height: 250px;
   margin: 0 auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .zoom:hover {
-  -ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
   transform: scale(1.5); 
 }
 
 .firstnavrow{
-  height: 100px;
-  padding-top: 10px;
-  margin-bottom: 8px;
+  height: 80px;
+  padding-top: 8px;
+  margin-bottom: 3px;
 }
 
 .secondnavrow{
-  border-bottom: 1px solid rgb(59, 58, 58);
+  border-bottom: 2px solid purple;
   margin-bottom: 10px;
  
- 
+  
 }
 
-.secondnav{
+/* .secondnav{
   border-bottom-color: purple;
-}
+} */
 
 .relative{
   /* background-color: blue; */
@@ -66,7 +67,7 @@ img{
   margin-left: 1px;
 }
 
-.searchbuttons{
+/* .searchbuttons{
   text-align: right;
   width: 300px;
   border: none;
@@ -76,14 +77,8 @@ img{
   margin-left: 1px;
   border-bottom: solid pink 2px;
   background-color: white;
-}
+} */
 
-hr{
-    width: 120px;
-    color: purple;
-    align-items: center;
-    margin-left: 20px;
-}
 
 button.dropbtn {
   text-align: center;
@@ -112,6 +107,9 @@ button.dropbtn {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     text-align: center;
+
+
+    
   }
   
   .dropdown-content a {

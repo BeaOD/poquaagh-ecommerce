@@ -6,7 +6,7 @@ import HomePage from '../src/pages/home/homePage'
 import AboutPage from '../src/pages/about/aboutPage'
 import LoginPage from './pages/login/loginPage'
 import Cape from '../src/pages/products/accessories/cape'
-import Earrings from '../src/pages/products/accessories/earrings'
+import Earring from '../src/pages/products/accessories/earring'
 import Hair from '../src/pages/products/accessories/hair'
 import Necklace from '../src/pages/products/accessories/necklace'
 import Oversizedhats from '../src/pages/products/accessories/oversizedhats'
@@ -24,7 +24,7 @@ const router = () => {
         <Route path='/' element={<HomePage/>}/>
         <Route path='/aboutPage' element={<AboutPage/>}/>
         <Route path='/loginPage' element={<LoginPage/>}/>
-        <Route path='/earrings' element={<Earrings/>}/>
+        <Route path='/earring' element={<Earring/>}/>
         <Route path='/cape' element={<Cape/>}/>
         <Route path='/hair' element={<Hair/>}/>
         <Route path='/necklace' element={<Necklace/>}/>
@@ -33,9 +33,10 @@ const router = () => {
 
         <Route path='/errorPage' element={<Errorpage/>}/>
       
-        {<Footer/>}
+        
         
     </Routes>
+    {<Footer/>}
     </Router>
   )
 }

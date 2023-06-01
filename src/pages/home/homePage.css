@@ -1,5 +1,8 @@
 .row1{
-    margin-top: 50px;
+    margin-top: 15px;
+    background-color: black;
+    border-radius: 3px;
+    height:400px;
 }
 
 .video{
@@ -13,15 +16,18 @@
     text-align: center;
     padding-top: 30px;
     font-size: large;
+    
 }
 
 .middletext{
-    background-color: rgb(172, 143, 172);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(172, 143, 172) ;
     text-align: center;
-    height: 290px;
-    padding-top: 60px;
+    height: 310px;
+    padding-top: 40px;
     margin-top: 60px;
     font-size: large;
+    color: whitesmoke;
 }
 
 .rightt{
@@ -29,7 +35,6 @@
     text-align: center;
     height: 290px;
     padding-top: 60px;
-    /* padding-left: 20px; */
     margin-top: 60px;
     margin-left: 20px;
     font-size: large;
@@ -37,9 +42,10 @@
 }
 
 img.imgshop{
-    width: 350px;
+    width: 360px;
     height: 450px;
-    padding-top: 60px;
+    padding-top: 20px;
+    position: relative;
 }
 
 img.imgnewarrivals{
@@ -52,17 +58,9 @@ img.imgshopL{
     padding-top: 60px;
 }
 
+.row2{
+    background-color: black;
+    border-radius: 3px;
+    height: 450px;
+}
 
-.parallax {
-    /* The image used */
-    /* background-image: url("otherimages/cape3.jpeg"); */
-  
-    /* Set a specific height */
-    min-height: 500px; 
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
