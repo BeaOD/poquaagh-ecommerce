@@ -3,11 +3,12 @@ import './product.css'
 
 function Sandals () {
   return (
-    <div className='container' >
+    <div className='container productcontainer' >
       <div className='row heading'>
-      <h1 className='productname'>SANDALS</h1>
+          <button variant="primary" className='addcart'>Add to art</button>
+      <h1 className='productname '>SANDALS</h1>
             <div className='description'><p>
-        Sandals - handcrafted  footwear
+         Handcrafted  footwear and very easy to walk in.
          </p></div>
       </div>
 
@@ -39,7 +40,7 @@ function Sandals () {
         <input type='number'/>
         <br/>
 
-          <button variant="primary" className='addcart'>Add to cart</button>
+          <button variant="primary" className='addcart'>Add to Cart</button>
           
 
 

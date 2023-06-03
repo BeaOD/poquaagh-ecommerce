@@ -12,7 +12,7 @@ export function CarouselThree() {
         />
         <Carousel.Caption>
         <h5 style={{color:'white', fontFamily:'cursive'}}>
-          Afrocentric Bag
+          Beaded Bag
           </h5>
         </Carousel.Caption>
       </Carousel.Item>
@@ -25,7 +25,7 @@ export function CarouselThree() {
 
         <Carousel.Caption>
         <h5 style={{color:'white', fontFamily:'cursive'}}>
-          Style Cape
+          Malaika
           </h5>
         </Carousel.Caption>
       </Carousel.Item>

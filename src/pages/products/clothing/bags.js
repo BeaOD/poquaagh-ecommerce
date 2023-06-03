@@ -7,7 +7,7 @@ function bags () {
       <div className='row heading'>
       <h1 className='productname'>BAGS</h1>
             <div className='description'><p>
-       handwoven bags
+       Beautiful bags to compliment your look. Enjoy!
           </p></div>
       </div>
 
@@ -39,7 +39,7 @@ function bags () {
         <input type='number'/>
         <br/>
 
-          <button variant="primary" className='addcart'>Add to cart</button>
+          <button variant="primary" className='addcart'>Add to Cart</button>
           
           </div >
           {/* next product

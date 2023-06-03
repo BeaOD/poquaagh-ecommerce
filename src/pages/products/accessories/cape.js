@@ -7,7 +7,8 @@ function cape () {
       <div className='row heading'>
       <h1 className='productname'> CAPE </h1>
             <div className='description'><p>
-      Cape is made of handwoven cloth, strips of silk and cotton.
+            A cape is a sleeveless outer garment, which drapes the wearer's back, arms and chest, 
+            and connects at the neck.
           </p></div>
       </div>
 
@@ -39,7 +40,7 @@ function cape () {
         <input type='number'/>
         <br/>
 
-          <button variant="primary" className='addcart'>Add to cart</button>
+          <button variant="primary" className='addcart'>Add to Cart</button>
 
           </div >
           {/* next product

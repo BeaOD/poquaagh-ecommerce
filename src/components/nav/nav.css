@@ -41,18 +41,12 @@ img{
   
 }
 
-/* .secondnav{
-  border-bottom-color: purple;
-} */
-
 .relative{
-  /* background-color: blue; */
   position:relative;
 }
 
 .cart{
   padding-top: 20px; 
-  /* border-right: 1px solid rgb(59, 58, 58); */
   border-width: 2px;
   text-align: right;
   padding-right: none;

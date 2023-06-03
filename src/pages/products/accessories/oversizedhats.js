@@ -3,11 +3,11 @@ import './product.css'
 
 function oversizedhats () {
   return (
-    <div className='container' >
+    <div className='container productcontainer' >
       <div className='row heading'>
       <h1 className='productname'>OVERSIZED HATS</h1>
             <div className='description'><p>
-       Oversized hats  of handwoven cloth, strips of silk and cotton.
+       Oversized hats  of  cloth, for your outdoor pleasure.
           </p></div>
       </div>
 
@@ -39,7 +39,7 @@ function oversizedhats () {
         <input type='number'/>
         <br/>
 
-          <button variant="primary" className='addcart'>Add to cart</button>
+          <button variant="primary" className='addcart'>Add to Cart</button>
           
 
 

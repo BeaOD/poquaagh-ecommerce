@@ -10,8 +10,8 @@ import './footer.css'
 function footer() {
   return (
     <div className='container footer '>
-        <div className='row' style={{backgroundColor:'rgb(172, 143, 172)', paddingTop:'5px'}}>
-            <div className='col-md-4'> 
+        <div className='row' style={{backgroundColor:'rgb(172, 143, 172)', paddingTop:'10px'}}>
+            <div className='col-md-3'> 
             <div className='socialicons'>
             <h6>We Are Social</h6>
   
@@ -40,7 +40,7 @@ function footer() {
             </div>
         
 
-            <div className='col-md-4'>
+            <div className='col-md-5'>
             <h6>Locate Us</h6>
            
             <a href='https://goo.gl/maps/dfqXB4aqfPkiwi6e8'>

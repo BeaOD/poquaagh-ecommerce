@@ -10,6 +10,12 @@ import Earring from '../src/pages/products/accessories/earring'
 import Hair from '../src/pages/products/accessories/hair'
 import Necklace from '../src/pages/products/accessories/necklace'
 import Oversizedhats from '../src/pages/products/accessories/oversizedhats'
+import Kimono from '../src/pages/products/clothing/kimono'
+import Bags from '../src/pages/products/clothing/bags'
+import Sandals from '../src/pages/products/clothing/sandals'
+import Slippers from '../src/pages/products/clothing/slippers'
+import Onsale from '../src/pages/products/trending/onsale'
+import Newarrivals from '../src/pages/products/trending/newarrivals'
 import Errorpage from './pages/errorpage'
 
 
@@ -29,6 +35,12 @@ const router = () => {
         <Route path='/hair' element={<Hair/>}/>
         <Route path='/necklace' element={<Necklace/>}/>
         <Route path='/oversizedhats' element={<Oversizedhats/>}/>
+        <Route path='/bags' element={<Bags/>}/>
+        <Route path='/kimono' element={<Kimono/>}/>
+        <Route path='/sandals' element={<Sandals/>}/>
+        <Route path='/slippers' element={<Slippers/>}/>
+        <Route path='/newarrivals' element={<Newarrivals/>}/>
+        <Route path='/onsale' element={<Onsale/>}/>
 
 
         <Route path='/errorPage' element={<Errorpage/>}/>

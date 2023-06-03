@@ -12,7 +12,7 @@ export function CarouselOne() {
         />
         <Carousel.Caption>
         <h5 style={{color:'white', fontFamily:'cursive'}}>
-          Afrocentric Bag
+          Owusuaa
           </h5>
         </Carousel.Caption>
       </Carousel.Item>
@@ -25,7 +25,7 @@ export function CarouselOne() {
 
         <Carousel.Caption>
         <h5 style={{color:'white', fontFamily:'cursive'}}>
-          Adinkra Earring
+          Adinkra 
           </h5>
         </Carousel.Caption>
       </Carousel.Item>
@@ -39,7 +39,7 @@ export function CarouselOne() {
 
         <Carousel.Caption>
           <h5 style={{color:'white', fontFamily:'cursive'}}>
-          Akyede3 Slippers
+          Akyede3 
           </h5>
         </Carousel.Caption>
       </Carousel.Item>

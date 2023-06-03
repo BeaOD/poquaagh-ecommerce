@@ -3,7 +3,7 @@ import './product.css'
 
 function newarrivals () {
   return (
-    <div className='container' >
+    <div className='container productcontainer' >
       <div className='row heading'>
       <h1 className='productname'>NEW ARRIVALS </h1>
             <div className='description'><p>
@@ -38,7 +38,7 @@ function newarrivals () {
         <input type='number'/>
         <br/>
 
-          <button variant="primary" className='addcart'>Add to cart</button>
+          <button variant="primary" className='addcart'>Add to Cart</button>
           
 
 

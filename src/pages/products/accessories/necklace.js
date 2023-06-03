@@ -3,11 +3,11 @@ import './product.css'
 
 function necklace () {
   return (
-    <div className='container' >
+    <div className='container productcontainer' >
       <div className='row heading'>
       <h1 className='productname'>NECKLACE </h1>
             <div className='description'><p>
-        Necklace of fabric
+        Piece of accessory worn around the neck.
           </p></div>
       </div>
 
@@ -39,7 +39,7 @@ function necklace () {
         <input type='number'/>
         <br/>
 
-          <button variant="primary" className='addcart'>Add to cart</button>
+          <button variant="primary" className='addcart'>Add to Cart</button>
           
 
 

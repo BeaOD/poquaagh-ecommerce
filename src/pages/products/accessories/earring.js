@@ -3,11 +3,11 @@ import './product.css'
 
 function earring () {
   return (
-    <div className='container' >
+    <div className='container productcontainer' >
       <div className='row heading'>
       <h1 className='productname'>EARRINGS </h1>
             <div className='description'><p>
-        Made from metal
+            A piece of jewellery worn on the lobe or edge of the ear.
           </p></div>
       </div>
 
@@ -39,7 +39,7 @@ function earring () {
         <input type='number'/>
         <br/>
 
-          <button variant="primary" className='addcart'>Add to cart</button>
+          <button variant="primary" className='addcart'>Add to Cart</button>
           
 
 

@@ -3,11 +3,11 @@ import './product.css'
 
 function Slippers () {
   return (
-    <div className='container' >
+    <div className='container productcontainer' >
       <div className='row heading'>
       <h1 className='productname'>SLIPPERS </h1>
             <div className='description'><p>
-        Sleek slippers
+        Comfortable handmade slip-on to be worn in or outdoor.
           </p></div>
       </div>
 
@@ -39,7 +39,7 @@ function Slippers () {
         <input type='number'/>
         <br/>
 
-          <button variant="primary" className='addcart'>Add to cart</button>
+          <button variant="primary" className='addcart'>Add to Cart</button>
           
 
 

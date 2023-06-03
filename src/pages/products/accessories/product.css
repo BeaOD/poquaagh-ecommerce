@@ -44,10 +44,11 @@ img{
 input{
     border: none;
     border-radius: 5px;
+    width: 200px;
 }
 
 .addcart{
-    background-color: rgb(187, 148, 187);
+    background-color: rgb(238, 241, 33);
     width: 300px;
     margin-top: 50px;
     border-radius: 5px;

@@ -25,7 +25,7 @@ export function CarouselTwo() {
 
         <Carousel.Caption>
         <h5 style={{color:'white', fontFamily:'cursive'}}>
-          Akyede3 Slippers
+          Malaika
           </h5>
         </Carousel.Caption>
       </Carousel.Item>
@@ -38,7 +38,7 @@ export function CarouselTwo() {
 
         <Carousel.Caption>
         <h5 style={{color:'white', fontFamily:'cursive'}}>
-        Classy Cape
+        Neckpiece
           </h5>
         </Carousel.Caption>
       </Carousel.Item>

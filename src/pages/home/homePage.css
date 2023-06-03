@@ -18,16 +18,23 @@
     font-size: large;
     
 }
+/* 
+.gallery1, .gallery2, .gallery{
+background-color: green;
+} */
 
 .middletext{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: rgb(172, 143, 172) ;
     text-align: center;
     height: 310px;
-    padding-top: 40px;
+    padding-top: 20px;
     margin-top: 60px;
-    font-size: large;
+    margin-left:10px;
+    font-size: 20px;
     color: whitesmoke;
+    border-radius: 3px;
+    font-weight: bold;
 }
 
 .rightt{
@@ -39,16 +46,46 @@
     margin-left: 20px;
     font-size: large;
     width: 300px;
+   
 }
 
-img.imgshop{
+img.imgshop1{
+    display: block;
     width: 360px;
     height: 450px;
     padding-top: 20px;
     position: relative;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    padding-right: 7px;
+    transition: transform .2s;
 }
 
-img.imgnewarrivals{
+img.imgshop1:hover {
+    -ms-transform: scale(1.2); 
+    -webkit-transform: scale(1.2); 
+    transform: scale(1.2); 
+  }
+img.imgshop2{
+    display: block;
+    width: 360px;
+    height: 450px;
+    padding-top: 20px;
+    position: relative;
+    border-radius: 5px;
+    margin-right: 4px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+    transition: transform .2s;
+}
+
+img.imgshop2:hover {
+    -ms-transform: scale(1.2); 
+    -webkit-transform: scale(1.2); 
+    transform: scale(1.2); 
+  }
+
+/* img.imgnewarrivals{
     height: 450px;
     padding-top: 60px;
 }
@@ -56,7 +93,7 @@ img.imgshopL{
     width: 550px;
     height: 550px;
     padding-top: 60px;
-}
+} */
 
 .row2{
     background-color: black;
@@ -64,3 +101,6 @@ img.imgshopL{
     height: 450px;
 }
 
+.videorow{
+    margin-bottom: 40px;
+}
